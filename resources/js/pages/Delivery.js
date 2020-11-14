@@ -47,8 +47,8 @@ class Delivery extends Component {
 
             const DirectionsService = new google.maps.DirectionsService();
             DirectionsService.route({
-                    origin: address.target_start,
-                    destination: address.target_end,
+                    origin: R. Mariz e Barros, 479 - Tijuca, Rio de Janeiro - RJ, 20270-003,
+                    destination: 22260240,
                     travelMode: google.maps.TravelMode.DRIVING,
                 }, (result, status) => {
                     if (status === google.maps.DirectionsStatus.OK) {
