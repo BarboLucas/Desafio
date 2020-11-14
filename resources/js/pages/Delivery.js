@@ -16,7 +16,7 @@ import MuiAlert from '@material-ui/lab/Alert';
 import Map from '../components/Map';
 import {formatDate} from '../utils/Date';
 
-const API_GOOGLE_MAPS_KEY = "AIzaSyDQrklMQx3scCo5dKR51Oy2ze7cULftjZ4";
+const API_GOOGLE_MAPS_KEY = "AIzaSyBGPmf3NoeaxWD0kST7-_kexZREvs2S7Yw";
 
 function Alert(props) {
   return <MuiAlert elevation={6} variant="filled" {...props} />;
