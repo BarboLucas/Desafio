@@ -122,7 +122,7 @@ class Delivery extends Component {
 
                         {!errorDirections && (
                             <Map directions={directions}
-                                googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${API_GOOGLE_MAPS_KEY}&v=3.exp&libraries=geometry,drawing,places`}
+                                googleMapURL={`https://maps.googleapis.com/maps/api/directions/json?origin=Disneyland&destination=Universal+Studios+Hollywood&key=${API_GOOGLE_MAPS_KEY}`}
                                 loadingElement={<div style={{ height: `100%` }} />}
                                 containerElement={<div style={{ height: `100vh` }} />}
                                 mapElement={<div style={{ height: `100vh` }} />}
