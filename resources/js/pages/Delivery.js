@@ -117,15 +117,15 @@ class Delivery extends Component {
                         </Typography>
 
                         {errorDirections && (
-                           <Alert severity="error">Não foi possivel renderizar o mapa com os endereços informados </Alert>
+                           <Alert>Não foi possivel renderizar o mapa com os endereços informados </Alert>*/
                         )}
 
                         {!errorDirections && (
                             <Map directions={directions}
                                 googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${API_GOOGLE_MAPS_KEY}&v=3.exp&libraries=geometry,drawing,places`}
                                 loadingElement={<div style={{ height: `100%` }} />}
-                                containerElement={<div style={{ height: `100%` }} />}
-                                mapElement={<div style={{ height: `100%` }} />}
+                                containerElement={<div style={{ height: `100vh` }} />}
+                                mapElement={<div style={{ height: `100vh` }} />}
                             />
                         )}
                     </Grid>
