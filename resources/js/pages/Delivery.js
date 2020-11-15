@@ -117,7 +117,7 @@ class Delivery extends Component {
                         </Typography>
 
                         {errorDirections && (
-                           <Alert severity="error">Não foi possivel renderizar o mapa com os endereços informados </Alert>
+                           /*<Alert severity="error">Não foi possivel renderizar o mapa com os endereços informados </Alert>*/
                         )}
 
                         {!errorDirections && (
