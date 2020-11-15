@@ -54,7 +54,7 @@ class Delivery extends Component {
                     if (status === google.maps.DirectionsStatus.OK) {
                     this.setState({
                         directions: result,
-                        errorDirections: false
+                        errorDirections: true
                     });
                     return;
                     }
@@ -93,7 +93,6 @@ class Delivery extends Component {
           return (
               <>
                <CssBaseline />
-               <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYeBDgx0npjRXJ6lExzDHhr7EvxUAXeJ8" type="text/javascript"></script>
                 <Breadcrumbs aria-label="breadcrumb">
                     <Link color="inherit" href="/">
                         Página Inícial
