@@ -113,11 +113,11 @@ class Delivery extends Component {
                         </Typography>
 
                         <Typography color="inherit" noWrap style={{ padding: 20}}>
-                        Origem: <strong>{delivery.target_start}</strong> - Destino: <strong>{delivery.target_end}</strong>
+                        Ori: <strong>{delivery.target_start}</strong> - Destino: <strong>{delivery.target_end}</strong>
                         </Typography>
 
                         {errorDirections && (
-                           /*<Alert severity="error">Não foi possivel renderizar o mapa com os endereços informados </Alert>*/
+                           <Alert severity="error">Não foi possivel renderizar o mapa com os endereços informados </Alert>
                         )}
 
                         {!errorDirections && (
