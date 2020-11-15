@@ -113,7 +113,7 @@ class Delivery extends Component {
                         </Typography>
 
                         <Typography color="inherit" noWrap style={{ padding: 20}}>
-                        Ori: <strong>{delivery.target_start}</strong> - Destino: <strong>{delivery.target_end}</strong>
+                        Origem: <strong>{delivery.target_start}</strong> - Destino: <strong>{delivery.target_end}</strong>
                         </Typography>
 
                         {errorDirections && (
