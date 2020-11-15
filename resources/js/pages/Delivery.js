@@ -54,7 +54,7 @@ class Delivery extends Component {
                     if (status === google.maps.DirectionsStatus.OK) {
                     this.setState({
                         directions: result,
-                        errorDirections: true
+                        errorDirections: false
                     });
                     return;
                     }
